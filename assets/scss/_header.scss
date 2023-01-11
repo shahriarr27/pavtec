@@ -1,0 +1,75 @@
+
+.navbar{
+  z-index: 50;
+  position: relative;
+  padding: 15px 0px;
+  .navbar-brand{
+    font-family: 'Comfortaa', cursive;
+    width: 150px;
+    color: $white;
+    font-size: 32px;
+  }
+  .navbar-nav{
+    button{
+      margin: 5px;
+      padding: 5px;
+      i{
+        font-size: 24px;
+        color: $white;
+      }
+    }
+  }
+  .dropdown{
+    .dropdown-menu{
+      color: $white;
+      width: 257px;
+      // background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(208, 205, 222, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(208, 205, 222, 0) 100%);
+      background: #D0CDDE;
+      background-blend-mode: overlay, normal;
+      backdrop-filter: blur(40px);
+      border-radius: 0px;
+      border: 2px solid #FFFFFF;
+      padding: 0px 20px;
+
+      .cart{
+        .cart-top{
+          padding: 20px 0px;
+          border-bottom: 2px solid white;
+          h4{
+            color: $white;
+            font-size: 20px;
+          }
+        }
+        .cart-body{
+          padding: 20px 0px;
+          border-bottom: 2px solid white;
+          p{
+            color: $white;
+            font-size: 15px;
+          }
+        }
+        .cart-bottom{
+          padding: 5px 0px 30px;
+          span{
+            font-size: 13px;
+          }
+          #cartTotal{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.pageInfo{
+  .jumbotron{
+    margin: 0px 0px;
+    border-top: 2px solid $white;
+    border-bottom: 2px solid $white;
+    padding: 10px 0px 20px;
+    .page-title{
+      font-size: 40px;
+      color: $white;
+    }
+  }
+}
